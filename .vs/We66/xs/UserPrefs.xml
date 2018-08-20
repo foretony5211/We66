@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{22DC7464-31C2-494F-BDB4-E4087B6A512A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="We66/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="We66/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="We66/Views/Shared/_Layout2.cshtml" Line="37" Column="1" />
+      <File FileName="We66/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="We66/Views/Home/Index2.cshtml" Line="6" Column="1" />
+      <File FileName="We66/Views/Home/Index.cshtml" Line="7" Column="19" />
+      <File FileName="We66/Views/Shared/_Layout.cshtml" Line="41" Column="119" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.We66 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

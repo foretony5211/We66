@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - 我的 ASP.NET 应用程序</title>
+    @*@Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")*@
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Content/weui.min.css">
+</head>
+<body ontouchstart>
+    <div class="container" id="container">
+        <div class="page">
+            <div class="page__hd">
+                <h1 class="page__title" style="text-align:center">
+                    <a href="@Url.Action(" Index","Home")">
+                        <img src="~/Content/images/logo.png" alt="十里香" style="height:40px" />
+                    </a>
+                </h1>
+                <p class="page__desc">&nbsp;</p>
+            </div>
+            <div class="page__bd page__hd_spacing" style="height:100%">
+                <div>
+                    @RenderBody()
+                </div>
+                <div>
+                    &nbsp;
+                </div>
+                <div class="weui-footer">
+                    <p class="weui-footer__text">Copyright © @DateTime.Now.Year Shilixiang</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">$(function() {
+            $('.weui-navbar__item').on('click', function() {
+                $(this).addClass('weui-bar__item_on').siblings('.weui-bar__item_on').removeClass('weui-bar__item_on');
+            });
+});</script>
+    @*@Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/jqueryval")
+        @Scripts.Render("~/bundles/bootstrap")
+        @Scripts.Render("~/bundles/weui")
+        @RenderSection("scripts", required: false)*@
+</body>
+</html>

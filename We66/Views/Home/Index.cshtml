@@ -1,0 +1,33 @@
+﻿@{
+                /**/
+
+                /**/
+
+                ViewBag.Title = "首页";
+                //Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<div class="weui-tab">
+    <div class="weui-navbar">
+        <div class="weui-navbar__item" id="1">
+            选项一
+        </div>
+        <div class="weui-navbar__item" id="2">
+            选项二
+        </div>
+        <div class="weui-navbar__item weui-bar__item_on" id="3">
+            我
+        </div>
+    </div>
+    <div class="weui-tab__panel">
+
+    </div>
+</div>
+
+
+<div>
+    &nbsp;
+</div>
+@Html.ActionLink("Index1", "Index", "Home", new { }, new { @class = "weui-btn weui-btn_plain-primary" })
+
+@Html.ActionLink("Index2", "Index2", "Home", new { }, new { @class = "weui-btn weui-btn_plain-primary" })
