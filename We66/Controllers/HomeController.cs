@@ -17,7 +17,7 @@ namespace We66.Controllers
 
         public ActionResult Index2()
         {
-
+            string a = "test";
             return View();
         }
     }
