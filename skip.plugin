@@ -2,4 +2,4 @@
 #!desc=跳过部分应用的代理检测，中小学
 
 [General]
-skip-proxy = 
+skip-proxy = *.eduyun.cn
