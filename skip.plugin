@@ -2,4 +2,4 @@
 #!desc=跳过部分应用的代理检测，中小学
 
 [General]
-skip-proxy = *.eduyun.cn,*.bankcomm.com,*.jd.com,*.jr.jd.com
+skip-proxy = *.eduyun.cn,*.bankcomm.com,*.jd.com,*.jr.jd.com,*.jdpay.com
